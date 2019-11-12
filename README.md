@@ -28,3 +28,52 @@ optional arguments:
   -b, --bruteforce      Try all possible sequence combinations.
 ```
 
+Example Usage
+-------------
+* Simple port knocking example: 
+`python knockit.py 127.0.0.1 23 25 8080`
+
+```
+[+] Knocking on port 127.0.0.1:23
+[+] Knocking on port 127.0.0.1:25
+[+] Knocking on port 127.0.0.1:8080
+```
+`python knockit.py -b 127.0.0.1 23 25 8080`
+
+* Bruteforce port knocking example: 
+```
+[+] Knockit started attacking with all the possible combinations
+
+******************************************************
+[+] Knocking with sequence: (23, 25, 8080)
+[+] Knocking on port 127.0.0.1:23
+[+] Knocking on port 127.0.0.1:25
+[+] Knocking on port 127.0.0.1:8080
+******************************************************
+[+] Knocking with sequence: (23, 8080, 25)
+[+] Knocking on port 127.0.0.1:23
+[+] Knocking on port 127.0.0.1:8080
+[+] Knocking on port 127.0.0.1:25
+******************************************************
+[+] Knocking with sequence: (25, 23, 8080)
+[+] Knocking on port 127.0.0.1:25
+[+] Knocking on port 127.0.0.1:23
+[+] Knocking on port 127.0.0.1:8080
+******************************************************
+[+] Knocking with sequence: (25, 8080, 23)
+[+] Knocking on port 127.0.0.1:25
+[+] Knocking on port 127.0.0.1:8080
+[+] Knocking on port 127.0.0.1:23
+******************************************************
+[+] Knocking with sequence: (8080, 23, 25)
+[+] Knocking on port 127.0.0.1:8080
+[+] Knocking on port 127.0.0.1:23
+[+] Knocking on port 127.0.0.1:25
+******************************************************
+[+] Knocking with sequence: (8080, 25, 23)
+[+] Knocking on port 127.0.0.1:8080
+[+] Knocking on port 127.0.0.1:25
+[+] Knocking on port 127.0.0.1:23
+******************************************************
+```
+
