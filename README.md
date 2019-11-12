@@ -2,7 +2,7 @@
 
 Description
 ------------
-Knockit is a tool that conducts port knocking attack by bruteforcing port sequences and can act as a simple port knocking client.
+Knockit is a tool that conducts port knocking bruteforce attack and can act as a simple port knocking client.
 
 Requirements
 -------------
