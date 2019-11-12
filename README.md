@@ -38,9 +38,10 @@ Examples
 [+] Knocking on port 127.0.0.1:25
 [+] Knocking on port 127.0.0.1:8080
 ```
-`python knockit.py -b 127.0.0.1 23 25 8080`
+
 
 * Bruteforce port knocking example: 
+`python knockit.py -b 127.0.0.1 23 25 8080`
 ```
 [+] Knockit started attacking with all the possible combinations
 
