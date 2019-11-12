@@ -6,7 +6,7 @@ Knockit is a tool that conducts port knocking attack by bruteforcing port sequen
 
 Requirements
 -------------
-* Python 3.x.x_
+* Python 3.x.x
 
 Installing Dependencies
 -------------
